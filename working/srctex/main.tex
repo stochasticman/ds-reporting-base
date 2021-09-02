@@ -1,0 +1,52 @@
+\documentclass[hidelinks,12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{stix}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\hypersetup{
+    linkcolor=gray
+}
+
+\begin{document}
+
+
+\title{Build LaTeX locally with Docker}
+\author{stochasticman}
+\maketitle
+
+\hypertarget{toc}{}
+\tableofcontents
+
+\section{Introduction}
+
+To calculate velocity, start like this:
+
+\begin{equation*}
+v = \frac{s}{t}
+\end{equation*}
+
+\section{Why tho?}
+
+
+I like to just focus on content and not the actual alignment and formatting of my words. I don't have to lift my fingers away from the keyboard to do anything! 
+
+Be careful though, you may have to enable word wrap on your text editor as \LaTeX lines can be really long!
+
+I can make matrices! 
+
+\[
+    \left[
+        \begin{array}{ccc}
+            a&b&c\\d&e&f    
+        \end{array}
+    \right]
+\]
+
+I can split my document into several pieces and import them into the main one!
+
+I can use version control! Everything is just text!
+
+Did you notice that the table of contents has links \hyperlink{toc}{?} Try hovering over the question mark you just passed to see what's going on.
+
+\end{document}
